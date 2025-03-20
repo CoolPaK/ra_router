@@ -5,7 +5,6 @@ import { Link, useParams } from 'react-router-dom';
 import postData from '../models';
 
 export default function SinglePost() {
-    // const [text, setText] = useState('');
     const [user, setUser] = useState<postData>();
     const {id} = useParams();
 
